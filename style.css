@@ -1,6 +1,6 @@
 html {
     box-sizing: border-box;
-    background: #ffc600;
+    background: #ff2511;
     font-family: 'helvetica neue';
     font-size: 20px;
     font-weight: 200;
@@ -51,7 +51,7 @@ html {
   .panel > * {
     margin: 0;
     width: 100%;
-    transition: transform 0.5s;
+    transition: transform 0.2s;
     flex: 1 0 auto;
     display: flex;
     justify-content: center;
@@ -81,6 +81,6 @@ html {
 
   @media only screen and (max-width: 600px) {
     .panel p {
-      font-size: 1em;
+      font-size: 1rem;
     }
   }
